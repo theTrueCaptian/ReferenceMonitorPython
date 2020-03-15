@@ -1,0 +1,32 @@
+README
+
+Videos:
+
+- Part 1: https://www.youtube.com/watch?v=St58kvqdU14 
+- Part 2: https://youtu.be/blFkjjGAeKo
+- Part 3: https://youtu.be/aBAd2ajxMd0
+
+- Reference Monitor Video: https://youtu.be/wy0plgcPrQQ
+
+To run the server:
+1) >python server.py
+
+To run the client:
+1) >python client.py
+2) Enter in your name
+	> Name: Eve
+3) Enter in the password, which is the key to decrypt messages from your friend, which you had agreed in a physicaly meeting.
+Password: adam
+
+List of known users and passwords:
+('Alice', 'maeda'), 
+('Bob', 'maeda'), 
+('Eve', 'evil'), 
+('Maeda', 'good'), 
+('Adam', 'good')
+
+
+
+Note:
+
+Scapy would not detect the applications packets, whereas Wireshark was able to. Moreover, sending a packet to the server was not detected by the server but Wireshark was able to detect it.
